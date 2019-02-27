@@ -83,10 +83,14 @@ h6 {
     background-color: #4aaaa5;
 }
 
-.navButton {
+.navContainer {
     float: right;
+}
+
+.navButton {
     transition: 1.5s;
     color: #777777;
+    display: inline-block;
 }
 
 .navButton:hover {
@@ -271,7 +275,9 @@ textarea {
     }
     .navContainer {
         width: 100%;
-        margin: auto 0;
+        margin: auto;
+        text-align: center;
+        float: none;
     }
     .content {
         width: 98%;
